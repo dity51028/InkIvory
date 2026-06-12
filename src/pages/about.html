@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>/about</title>
+</head>
+
+<body class="bg-black min-h-scree text-white">
+    <nav class="w-full px-4 md:px-8 py-4 flex items-center justify-between">
+
+        <!-- Logo -->
+        <div>
+            <a href="/index.html">
+                <img src="./../assets/logo/logo.png" alt="logo" class="h-12">
+            </a>
+        </div>
+
+
+        <div class="hidden md:block">
+            <ul class="flex items-center gap-6">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="border rounded-2xl px-3 py-1"><a href="./about.html">About</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="hidden md:flex gap-6 items-center">
+            <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+            <i class="fa-solid fa-cart-arrow-down cursor-pointer"></i>
+
+            <ul class="flex gap-4">
+                <li class="border rounded-2xl px-3 py-1">
+                    <a href="#login">Login</a>
+                </li>
+
+                <li class="bg-red-700 text-white rounded-2xl px-3 py-1">
+                    <a href="#signup">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <button id="menu-btn" class="md:hidden text-2xl">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+
+        <ul class="flex flex-col gap-4">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+        </ul>
+    </div>
+    <main>
+        <!-- ================= ABOUT HERO ================= -->
+        <section class="pt-20 pb-10 bg-gradient-to-r from-black via-red-600 to-black">
+            <div class="container max-w-5xl mx-auto text-center px-6">
+
+                <img src="./assets/book-logo.png" alt="" class="w-32 mx-auto mb-6">
+
+                <h1 class="text-5xl font-serif text-white mb-4">
+                    About the Library
+                </h1>
+
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Curating exceptional literature for discerning readers since the beginning.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- ================= PHILOSOPHY ================= -->
+        <section class="py-16">
+            <div class="container max-w-4xl mx-auto text-center px-6">
+
+                <h2 class="text-4xl font-serif mb-6">
+                    Our Philosophy
+                </h2>
+
+                <p class="text-gray-400 leading-8">
+                    We believe books are more than stories. They are gateways to
+                    understanding, creativity, and inspiration.
+                </p>
+
+                <p class="text-gray-500 mt-4">
+                    Each selection is thoughtfully chosen for its literary merit and
+                    lasting value.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- ================= CONTENT SECTION ================= -->
+        <section class="py-20">
+            <div class="container max-w-7xl mx-auto px-6">
+
+                <div class="grid lg:grid-cols-2 gap-16 items-start">
+
+                    <!-- LEFT IMAGE -->
+                    <div class="sticky top-10">
+
+                        <img src="./../assets/open.png" alt="" class="w-full max-w-lg mx-auto">
+
+                    </div>
+
+                    <!-- RIGHT CARDS -->
+                    <div class="space-y-12">
+
+                        <!-- CARD 1 -->
+                        <div
+                            class="relative bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-3xl p-8 border border-zinc-700">
+
+                            <span
+                                class="absolute top-0 left-0 w-10 h-10 rounded-full bg-gradient-to-br from-yellow-200 to-yellow-500 blur-sm"></span>
+
+                            <h3 class="text-3xl font-serif mb-6">
+                                What We Curate
+                            </h3>
+
+                            <ul class="space-y-4 text-gray-300">
+                                <li>✦ Literary fiction and classics</li>
+                                <li>✦ Thought-provoking non-fiction</li>
+                                <li>✦ Rare and limited editions</li>
+                                <li>✦ Carefully selected children's books</li>
+                            </ul>
+
+                        </div>
+
+                        <!-- CARD 2 -->
+                        <div
+                            class="relative bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-3xl p-8 border border-zinc-700">
+
+                            <span
+                                class="absolute top-0 left-0 w-10 h-10 rounded-full bg-gradient-to-br from-yellow-200 to-yellow-500 blur-sm"></span>
+
+                            <h3 class="text-3xl font-serif mb-6">
+                                The Editorial Approach
+                            </h3>
+
+                            <p class="text-gray-400 leading-7">
+                                Every title is reviewed for relevance, quality,
+                                craftsmanship, and reader impact before being featured.
+                            </p>
+
+                        </div>
+
+                        <!-- CARD 3 -->
+                        <div
+                            class="relative bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-3xl p-8 border border-zinc-700">
+
+                            <span
+                                class="absolute top-0 left-0 w-10 h-10 rounded-full bg-gradient-to-br from-yellow-200 to-yellow-500 blur-sm"></span>
+
+                            <h3 class="text-3xl font-serif mb-6">
+                                Why We Exist
+                            </h3>
+
+                            <p class="text-gray-400 leading-7">
+                                To connect readers with exceptional books that enrich
+                                lives, inspire imagination, and encourage meaningful
+                                conversations.
+                            </p>
+
+                        </div>
+
+                        <!-- CARD 4 -->
+                        <div
+                            class="relative bg-gradient-to-b from-zinc-800 to-zinc-900 rounded-3xl p-8 border border-zinc-700">
+
+                            <span
+                                class="absolute top-0 left-0 w-10 h-10 rounded-full bg-gradient-to-br from-yellow-200 to-yellow-500 blur-sm"></span>
+
+                            <h3 class="text-3xl font-serif mb-6">
+                                Our Promise
+                            </h3>
+
+                            <ul class="space-y-4 text-gray-300">
+                                <li>✦ Thoughtfully selected books</li>
+                                <li>✦ Premium quality editions</li>
+                                <li>✦ Expert literary recommendations</li>
+                                <li>✦ Curated reading collections</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-20 bg-black px-6 lg:px-20">
+            <div
+                class="container max-w-6xl mx-auto border border-red-700 rounded-2xl p-10 bg-gradient-to-b from-red-950/40 to-transparent shadow-[0_0_40px_rgba(255,0,0,0.2)]">
+
+                <h2 class="text-center text-4xl font-serif mb-4">
+                    Join Our Inner Circle
+                </h2>
+
+                <p class="text-center text-gray-400 mb-10">
+                    Receive early access to curated collections, limited editions,
+                    and exclusive literary insights.
+                </p>
+
+                <form class="flex flex-col md:flex-row justify-center gap-4 max-w-xl mx-auto">
+                    <input type="email" placeholder="Email Address"
+                        class="flex-1 bg-transparent border border-gray-600 rounded-full px-6 py-3 focus:outline-none" />
+
+                    <button class="border border-red-500 rounded-full px-8 py-3 hover:bg-red-700 transition">
+                        Subscribe
+                    </button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="border-t  bg-black border-zinc-800 py-10 px-6">
+
+        <div class="max-w-7xl mx-auto text-center">
+
+            <h3 class="font-serif text-2xl mb-6">
+                A Thoughtfully Curated Online Library.
+            </h3>
+
+            <ul class="flex flex-wrap justify-center gap-8 text-gray-400 mb-6">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <p class="text-sm text-gray-500">
+                © 2025 RareReads. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
